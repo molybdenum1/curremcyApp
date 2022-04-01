@@ -1,28 +1,21 @@
-body{
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+.app-wrapper{
+
+
+  width:1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-areas: 
+  "header header" 
+  "navbar profile" ;
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 4fr 8fr ;
 }
-h1{
-  margin: 0;
-  margin-bottom: .5rem;
-}
-.header{
-  min-height: 10vh;
-  padding-bottom: 30vh;
-}
-.input {
-  border: 1px solid black;
-  border-radius: .3rem;
-  padding: .25rem;
-  width: 7em;
-}
-select{
-  margin-left: .5rem;
-}
-.equals{
-  font-weight: bold;
-  font-size: 2rem;
-}
+
+
+
+
+
+

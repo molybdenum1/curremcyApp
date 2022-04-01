@@ -1,13 +1,19 @@
+
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
+import Dialogs from './components/Dialogs/Dialogs';
 import './App.css';
-import React from 'react';
-import Main from './components/Main';
-import Header from './components/Header';
+import Dialogs from './components/Dialogs/Dialogs';
+
 
 function App() {
   return (
-    <div>
+    <div className="app-wrapper">
       <Header/>
-      <Main/>
+      <Navbar/>
+      {/* <Profile/> */}
+      <Dialogs/>
     </div>
   );
 }
